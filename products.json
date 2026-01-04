@@ -1,25 +1,5 @@
 [
   {
-    "id": "santa-muerte-negra-15",
-    "name": "Santa Muerte Negra 15 cm",
-    "category": "figuras-3d",
-    "price": 350,
-    "size": "15 cm aprox.",
-    "tag": "Figura 3D",
-    "description": "Impresión 3D en PLA, ideal para altar esotérico.",
-    "image": "img/santa-muerte-negra-15.jpg"
-  },
-  {
-    "id": "santa-muerte-roja-10",
-    "name": "Santa Muerte Roja 10 cm",
-    "category": "figuras-3d",
-    "price": 260,
-    "size": "10 cm aprox.",
-    "tag": "Figura 3D",
-    "description": "Versión compacta para llevar contigo o en tu escritorio.",
-    "image": "img/santa-muerte-roja-10.jpg"
-  },
-  {
     "id": "medico-peste-10",
     "name": "Médico de la Peste 10 cm",
     "category": "figuras-3d",
@@ -58,16 +38,6 @@
     "tag": "Grabado láser",
     "description": "Base para tiradas de tarot con símbolos místicos.",
     "image": "img/tabla-tarot.jpg"
-  },
-  {
-    "id": "kit-ritual-proteccion",
-    "name": "Kit Ritual de Protección",
-    "category": "velas-rituales",
-    "price": 420,
-    "size": "Kit completo",
-    "tag": "Ritual",
-    "description": "Incluye velas, sal, hierbas y mini figura protectora.",
-    "image": "img/kit-ritual-proteccion.jpg"
   },
   {
     "id": "vela-esoterica-negra",
@@ -118,5 +88,15 @@
     "tag": "Decoración",
     "description": "Runas impresas o grabadas para lecturas o decoración.",
     "image": "img/runas-decorativas.jpg"
+  },
+  {
+    "id": "figura-funko",
+    "name": "figura de tipo funko",
+    "category": "figuras-3d",
+    "price": 350,
+    "size": "10 piezas",
+    "tag": "Figura 3D",
+    "description": "figura impresa en 3d apartir de imagen.",
+    "image": "img/tipo-funko.jpg"
   }
 ]

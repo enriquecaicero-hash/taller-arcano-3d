@@ -3,7 +3,7 @@
 // =============================
 
 // Cambia este número por tu WhatsApp (52 + lada + número, sin signos)
-const WHATSAPP_NUMBER = "522291234567"; // <-- CAMBIA ESTO
+const WHATSAPP_NUMBER = "525630902942; // <-- CAMBIA ESTO
 
 let products = []; // se llenará desde products.json
 

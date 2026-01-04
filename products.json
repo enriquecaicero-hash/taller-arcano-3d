@@ -1,0 +1,122 @@
+[
+  {
+    "id": "santa-muerte-negra-15",
+    "name": "Santa Muerte Negra 15 cm",
+    "category": "figuras-3d",
+    "price": 350,
+    "size": "15 cm aprox.",
+    "tag": "Figura 3D",
+    "description": "Impresión 3D en PLA, ideal para altar esotérico.",
+    "image": "img/santa-muerte-negra-15.jpg"
+  },
+  {
+    "id": "santa-muerte-roja-10",
+    "name": "Santa Muerte Roja 10 cm",
+    "category": "figuras-3d",
+    "price": 260,
+    "size": "10 cm aprox.",
+    "tag": "Figura 3D",
+    "description": "Versión compacta para llevar contigo o en tu escritorio.",
+    "image": "img/santa-muerte-roja-10.jpg"
+  },
+  {
+    "id": "medico-peste-10",
+    "name": "Médico de la Peste 10 cm",
+    "category": "figuras-3d",
+    "price": 280,
+    "size": "10 cm aprox.",
+    "tag": "Figura 3D",
+    "description": "Figura estilo plague doctor, perfecta para colección oscura.",
+    "image": "img/medico-peste-10.jpg"
+  },
+  {
+    "id": "calavera-altar-10",
+    "name": "Calavera de Altar 10 cm",
+    "category": "figuras-3d",
+    "price": 220,
+    "size": "10 cm aprox.",
+    "tag": "Figura 3D",
+    "description": "Calavera decorativa para altar o escritorio.",
+    "image": "img/calavera-altar-10.jpg"
+  },
+  {
+    "id": "tabla-ouija-laser",
+    "name": "Tabla estilo Ouija grabada",
+    "category": "tablas-tableros",
+    "price": 480,
+    "size": "30 x 20 cm",
+    "tag": "Grabado láser",
+    "description": "Tablero estilo ouija grabado en MDF, acabado esotérico.",
+    "image": "img/tabla-ouija-laser.jpg"
+  },
+  {
+    "id": "tabla-tarot",
+    "name": "Tabla porta-tarot",
+    "category": "tablas-tableros",
+    "price": 350,
+    "size": "25 x 18 cm",
+    "tag": "Grabado láser",
+    "description": "Base para tiradas de tarot con símbolos místicos.",
+    "image": "img/tabla-tarot.jpg"
+  },
+  {
+    "id": "kit-ritual-proteccion",
+    "name": "Kit Ritual de Protección",
+    "category": "velas-rituales",
+    "price": 420,
+    "size": "Kit completo",
+    "tag": "Ritual",
+    "description": "Incluye velas, sal, hierbas y mini figura protectora.",
+    "image": "img/kit-ritual-proteccion.jpg"
+  },
+  {
+    "id": "vela-esoterica-negra",
+    "name": "Vela esotérica negra",
+    "category": "velas-rituales",
+    "price": 90,
+    "size": "Altura 15 cm",
+    "tag": "Vela",
+    "description": "Ideal para corte de energías y protección.",
+    "image": "img/vela-esoterica-negra.jpg"
+  },
+  {
+    "id": "llavero-pentagrama",
+    "name": "Llavero Pentagrama 3D",
+    "category": "llaveros-detalles",
+    "price": 120,
+    "size": "5 cm",
+    "tag": "Llavero",
+    "description": "Impreso en 3D, perfecto como amuleto discreto.",
+    "image": "img/llavero-pentagrama.jpg"
+  },
+  {
+    "id": "llavero-santa-muerte-mini",
+    "name": "Mini Santa Muerte llavero",
+    "category": "llaveros-detalles",
+    "price": 130,
+    "size": "4 cm",
+    "tag": "Llavero",
+    "description": "Versión mini para traer siempre contigo.",
+    "image": "img/llavero-santa-muerte-mini.jpg"
+  },
+  {
+    "id": "portal-lunar-3d",
+    "name": "Portal Lunar 3D",
+    "category": "decoracion",
+    "price": 320,
+    "size": "15 cm",
+    "tag": "Decoración",
+    "description": "Arco con luna y símbolos místicos para altar.",
+    "image": "img/portal-lunar-3d.jpg"
+  },
+  {
+    "id": "runas-decorativas",
+    "name": "Set de Runas decorativas",
+    "category": "decoracion",
+    "price": 260,
+    "size": "24 piezas",
+    "tag": "Decoración",
+    "description": "Runas impresas o grabadas para lecturas o decoración.",
+    "image": "img/runas-decorativas.jpg"
+  }
+]

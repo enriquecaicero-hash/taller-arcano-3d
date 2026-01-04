@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Taller Arcano 3D | Esoterismo & Figuras 3D</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Taller Arcano 3D - Esoterismo, figuras 3D y grabado láser. Pide por WhatsApp.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <!-- HEADER -->
+    <header>
+      <div class="brand">
+        <div class="brand-logo">
+          <img src="img/logo-ta3d-profile.png" alt="Taller Arcano 3D">
+        </div>
+        <div class="brand-text">
+          <h1>Taller Arcano 3D</h1>
+          <p>Esoterismo, Figuras 3D &amp; Grabado Láser</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="pill">
+          ✨ Envíos en Xalapa y alrededores
+        </div>
+        <button class="btn btn-outline" id="scrollCatalogBtn">
+          Ver catálogo
+        </button>
+        <a href="#" id="headerWhatsappLink" target="_blank" rel="noopener" class="btn btn-primary">
+          🧿 Pedir por WhatsApp
+        </a>
+      </div>
+    </header>
+
+    <!-- PORTADA -->
+    <section class="cover">
+      <img src="img/fb-cover.jpg" alt="Portada Taller Arcano 3D">
+    </section>
+
+    <!-- INFO STRIP -->
+    <div class="info-strip">
+      <div class="info-left">
+        <span class="info-dot"></span>
+        <span class="info-highlight">Hecho bajo pedido</span>
+        <span class="info-text">Figuras aprox. 10&nbsp;cm, tableros, velas y más.</span>
+      </div>
+      <div class="info-right">
+        <span class="info-highlight">Pago:</span> Efectivo · Transferencia
+      </div>
+    </div>
+
+    <!-- CATEGORIES + PRODUCTS -->
+    <section id="catalogo">
+      <div class="categories">
+        <div class="categories-title">Categorías</div>
+        <div class="categories-list" id="categoriesList">
+          <!-- se rellena con JS -->
+        </div>
+      </div>
+
+      <div class="products">
+        <h2 class="section-title">Catálogo esotérico &amp; 3D</h2>
+        <p class="section-subtitle">
+          Elige tus piezas, revisa el carrito y manda tu pedido por WhatsApp.
+        </p>
+        <div class="grid" id="productsGrid">
+          <!-- se rellena con JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div>
+        <span>Taller Arcano 3D</span> · Esoterismo &amp; Figuras 3D · Xalapa, Veracruz.
+      </div>
+      <div>Actualiza tu catálogo editando el archivo <strong>products.json</strong>.</div>
+    </footer>
+  </div>
+
+  <!-- CART BAR -->
+  <div class="cart-bar">
+    <div class="cart-summary">
+      <div class="cart-summary-main">
+        <strong id="cartTotalLabel">$0.00 MXN</strong>
+        <span class="cart-chip">
+          <span class="cart-chip-dot"></span>
+          <span id="cartItemsLabel">0 artículos</span>
+        </span>
+      </div>
+      <div class="cart-summary-sub">
+        Revisa tu pedido y confirma por WhatsApp.
+      </div>
+    </div>
+    <button class="btn-cart" id="openCartBtn">
+      🧺 Ver carrito
+    </button>
+  </div>
+
+  <!-- CART MODAL -->
+  <div class="modal-backdrop" id="cartModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 class="modal-title">Tu pedido esotérico</h3>
+        <button class="modal-close" id="closeCartBtn">&times;</button>
+      </div>
+      <div class="modal-body" id="cartItemsContainer">
+        <!-- items -->
+      </div>
+      <div class="modal-footer">
+        <div class="cart-totals-line">
+          <span>Total</span>
+          <span id="cartTotalDetail">$0.00 MXN</span>
+        </div>
+        <div class="cart-actions-row">
+          <button class="btn-ghost" id="clearCartBtn">Vaciar carrito</button>
+          <button class="btn-whatsapp" id="whatsappBtn">
+            💬 Enviar pedido por WhatsApp
+          </button>
+        </div>
+        <div class="cart-note">
+          *Los precios son por pieza estándar (10&nbsp;cm aprox.). Pueden variar según personalización.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
